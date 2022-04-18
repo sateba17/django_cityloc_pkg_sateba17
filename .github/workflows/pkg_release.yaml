@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-       run: echo Packaging citylocations for release!
+        run: echo Packaging citylocations for release!
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v1
